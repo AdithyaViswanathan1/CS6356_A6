@@ -1,0 +1,90 @@
+Release Notes -- Apache PDFBox -- Version 2.0.31
+
+Introduction
+------------
+
+The Apache PDFBox library is an open source Java tool for working with PDF documents.
+
+This is an incremental bugfix release based on the earlier 2.0.30 release. It contains
+a couple of fixes and small improvements.
+
+For more details on these changes and all the other fixes and improvements
+included in this release, please refer to the following issues on the
+PDFBox issue tracker at https://issues.apache.org/jira/browse/PDFBOX.
+
+Bug
+
+[PDFBOX-2725] - [PATCH] Split pdf lose accessibility tags
+[PDFBOX-5375] - Allow creating of PDFXObjectImage without accessing to the image stream
+[PDFBOX-5713] - PfbParser fails to parse PFB font with multiple binary records.
+[PDFBOX-5715] - Lines vanish when printing on MacOS
+[PDFBOX-5718] - java.lang.IllegalArgumentException: Provided dictionary is not of type 'COSName{OCG}'
+[PDFBOX-5721] - The embedded font DroidSansFallbackFull reports an error when parsing, and finally uses lastResortFont, resulting in garbled fonts.
+[PDFBOX-5723] - COSName caches already cached hashCode
+[PDFBOX-5727] - Font operation takes a long time with 3.0.1
+[PDFBOX-5728] - NullPointerException in TTFSubsetter.buildPostTable()
+[PDFBOX-5732] - Problem converting PDF to image (java.awt.color.CMMException: Can not access specified profile)
+[PDFBOX-5735] - Set the default value for PDNonTerminalField
+[PDFBOX-5737] - java.lang.ArrayIndexOutOfBoundsException Bug Report
+[PDFBOX-5738] - Wrong colors in PDF since PDFBOX-5488
+[PDFBOX-5740] - Java 7 support on 2.0
+[PDFBOX-5751] - Convert to image exception
+[PDFBOX-5754] - PDF conversion in this format is very slow. Is there any room for optimization?
+[PDFBOX-5763] - IllegalArgumentException: -Infinity is not a finite number
+[PDFBOX-5772] - Inconsistent signature page handling when signing in existing signature fields
+[PDFBOX-5773] - Add leading "0" for octal values in MacOSRomanEncoding
+[PDFBOX-5776] - DataFormatException: invalid distance too far back
+[PDFBOX-5778] - Grayscale JPEG rendered multicolor
+[PDFBOX-5781] - OutOfMemoryError in FileSystemFontsProvider.scanFonts
+[PDFBOX-5782] - NPE in PageDrawer.getPaint()
+[PDFBOX-5785] - Issue with embedded Font and descendant Font
+[PDFBOX-5787] - LCMS error 13: Mismatched alpha channels
+
+New Feature
+
+[PDFBOX-5768] - Enable Native Markdown Extraction in Apache PDFBox
+
+Improvement
+
+[PDFBOX-5762] - When splitting, keep page destinations that are part of target document(s)
+[PDFBOX-5783] - Replace Exception with some repair attempt
+
+Task
+
+[PDFBOX-5739] - Add test for PDFBOX-3347
+[PDFBOX-5741] - Add test for PDFBOX-4106
+
+Release Contents
+----------------
+
+This release consists of a single source archive packaged as a zip file.
+The archive can be unpacked with the jar tool from your JDK installation.
+See the README.txt file for instructions on how to build this release.
+
+The source archive is accompanied by a SHA512 checksum and a PGP signature
+that you can use to verify the authenticity of your download.
+The public key used for the PGP signature can be found at
+https://www.apache.org/dist/pdfbox/KEYS.
+
+About Apache PDFBox
+-------------------
+
+Apache PDFBox is an open source Java library for working with PDF documents.
+This project allows creation of new PDF documents, manipulation of existing
+documents and the ability to extract content from documents. Apache PDFBox
+also includes several command line utilities. Apache PDFBox is published
+under the Apache License, Version 2.0.
+
+For more information, visit https://pdfbox.apache.org/
+
+About The Apache Software Foundation
+------------------------------------
+
+Established in 1999, The Apache Software Foundation provides organizational,
+legal, and financial support for more than 100 freely-available,
+collaboratively-developed Open Source projects. The pragmatic Apache License
+enables individual and commercial users to easily deploy Apache software;
+the Foundation's intellectual property framework limits the legal exposure
+of its 2,500+ contributors.
+
+For more information, visit https://www.apache.org/

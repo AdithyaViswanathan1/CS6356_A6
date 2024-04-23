@@ -1,0 +1,78 @@
+Release Notes -- Apache PDFBox -- Version 2.0.29
+
+Introduction
+------------
+
+The Apache PDFBox library is an open source Java tool for working with PDF documents.
+
+This is an incremental bugfix release based on the earlier 2.0.28 release. It contains
+a couple of fixes and small improvements.
+
+For more details on these changes and all the other fixes and improvements
+included in this release, please refer to the following issues on the
+PDFBox issue tracker at https://issues.apache.org/jira/browse/PDFBOX.
+
+Bug
+
+[PDFBOX-4010] - A (rotated) barcode is missing from a pdf when printed
+[PDFBOX-5587] - NullPointerException in PDTrueTypeFont.java getPath( )
+[PDFBOX-5591] - Parsing of XMP metadata without optional xmpmeta element
+[PDFBOX-5593] - Avoid division by 0 in shading function interpolation
+[PDFBOX-5596] - MyPageDrawer#getPaint may produce UnsupportedOperationException
+[PDFBOX-5601] - Barcode corrupted when printing document
+[PDFBOX-5604] - The text in some fonts is lost when converting pdf to image
+[PDFBOX-5606] - PDFTextStripper runs out of memory in 2.0.28 but not in 2.0.27 same code
+[PDFBOX-5609] - all values in the signature dictionary shall be direct objects
+[PDFBOX-5611] - Glyphs not rendered
+[PDFBOX-5612] - PDF with mangled font rendering in some environments
+[PDFBOX-5614] - RadioButtons disappear when printing PDF
+[PDFBOX-5620] - BitsPerComponent 16 not allowed in PDF/A-1b
+[PDFBOX-5621] - NullPointerException in PDFStreamEngine.showText
+[PDFBOX-5624] - Infinte loop when parsing Type1 font
+
+Improvement
+
+[PDFBOX-5571] - Add duplex and tray parameters to PrintPDF
+[PDFBOX-5598] - Create command line utility to extract XMP data
+[PDFBOX-5605] - Improve Opaque PDFRenderer example
+
+Task
+
+[PDFBOX-4932] - Implement /RunLengthDecode encoder
+[PDFBOX-5595] - Slight regression on corrupt bug tracker file
+[PDFBOX-5625] - move and update bc from jdk15on to jdk15to18
+
+Release Contents
+----------------
+
+This release consists of a single source archive packaged as a zip file.
+The archive can be unpacked with the jar tool from your JDK installation.
+See the README.txt file for instructions on how to build this release.
+
+The source archive is accompanied by a SHA512 checksum and a PGP signature
+that you can use to verify the authenticity of your download.
+The public key used for the PGP signature can be found at
+https://www.apache.org/dist/pdfbox/KEYS.
+
+About Apache PDFBox
+-------------------
+
+Apache PDFBox is an open source Java library for working with PDF documents.
+This project allows creation of new PDF documents, manipulation of existing
+documents and the ability to extract content from documents. Apache PDFBox
+also includes several command line utilities. Apache PDFBox is published
+under the Apache License, Version 2.0.
+
+For more information, visit https://pdfbox.apache.org/
+
+About The Apache Software Foundation
+------------------------------------
+
+Established in 1999, The Apache Software Foundation provides organizational,
+legal, and financial support for more than 100 freely-available,
+collaboratively-developed Open Source projects. The pragmatic Apache License
+enables individual and commercial users to easily deploy Apache software;
+the Foundation's intellectual property framework limits the legal exposure
+of its 2,500+ contributors.
+
+For more information, visit https://www.apache.org/

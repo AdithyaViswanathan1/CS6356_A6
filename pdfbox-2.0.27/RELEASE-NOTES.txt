@@ -1,0 +1,86 @@
+Release Notes -- Apache PDFBox -- Version 2.0.27
+
+Introduction
+------------
+
+The Apache PDFBox library is an open source Java tool for working with PDF documents.
+
+This is an incremental bugfix release based on the earlier 2.0.26 release. It contains
+a couple of fixes and small improvements.
+
+For more details on these changes and all the other fixes and improvements
+included in this release, please refer to the following issues on the
+PDFBox issue tracker at https://issues.apache.org/jira/browse/PDFBOX.
+
+Bug
+
+[PDFBOX-4925] - Invalid stream Length validation in StreamValidationProcess
+[PDFBOX-5389] - To set compressed on buffered image while creating a PDF
+[PDFBOX-5403] - Blurry / distorted rendering
+[PDFBOX-5424] - java.lang.IndexOutOfBoundsException (2)
+[PDFBOX-5427] - PDFDebugger does not remove listeners for PagePane when opening new File
+[PDFBOX-5428] - PDFRenderer.renderImageWithDPI thows EOFException in PDF
+[PDFBOX-5429] - PDFCloneUtility.checkForRecursion breaks support for some existing PDFs
+[PDFBOX-5430] - PDFStreamEngine.showTextStrings with font switch
+[PDFBOX-5453] - ClassCastException (PDColor.java:66)
+[PDFBOX-5459] - NullPointerException in PDFunctionType3.eval()
+[PDFBOX-5460] - Deadlock in TrueTypeFont and RAFDataStream
+[PDFBOX-5463] - illegalArgumentException for rendering PDF (image extraction)
+[PDFBOX-5465] - NullPointerException in CmapSubtable.getCharCode
+[PDFBOX-5470] - PDActionEmbeddedGoTo does not accept a Destination with a page number or string
+[PDFBOX-5471] - NPE when Transparency Group is missing the BBox
+[PDFBOX-5484] - PDFRenderer does not render letters when converting page to image
+[PDFBOX-5488] - JPEG image rendered with wrong colors when using TwelveMonkeys
+[PDFBOX-5499] - Performance issue since 2.0.18
+[PDFBOX-5500] - NullPointerException in PDType0Font.readCode() if cMap is null
+[PDFBOX-5504] - NullPointerException in CFFParser.parseFont()
+[PDFBOX-5505] - IndexOutOfBoundsException in PDCIDFont.readWidths()
+[PDFBOX-5506] - IndexOutOfBoundsException in Type1Parser.java
+[PDFBOX-5507] - ClassCastException in CMapParser.parseBeginbfchar
+[PDFBOX-5508] - ClassCastException in PDXObject.createXObject()
+[PDFBOX-5509] - ClassCastException in PDAcroForm.getFields()
+[PDFBOX-5510] - ClassCastException in PDDocumentCatalog.getAcroForm()
+[PDFBOX-5511] - ClassCastException in PDResources.getIndirect()
+[PDFBOX-5513] - getPageLayout throws IllegalArgumentException for empty mode
+[PDFBOX-5514] - Font not found because of case issues
+
+Improvement
+
+[PDFBOX-5448] - Clarify access permission for high / low print quality
+[PDFBOX-5450] - Create Opaque PDFRenderer example
+[PDFBOX-5494] - "invalid object number value" is too scary
+
+Release Contents
+----------------
+
+This release consists of a single source archive packaged as a zip file.
+The archive can be unpacked with the jar tool from your JDK installation.
+See the README.txt file for instructions on how to build this release.
+
+The source archive is accompanied by a SHA512 checksum and a PGP signature
+that you can use to verify the authenticity of your download.
+The public key used for the PGP signature can be found at
+https://www.apache.org/dist/pdfbox/KEYS.
+
+About Apache PDFBox
+-------------------
+
+Apache PDFBox is an open source Java library for working with PDF documents.
+This project allows creation of new PDF documents, manipulation of existing
+documents and the ability to extract content from documents. Apache PDFBox
+also includes several command line utilities. Apache PDFBox is published
+under the Apache License, Version 2.0.
+
+For more information, visit https://pdfbox.apache.org/
+
+About The Apache Software Foundation
+------------------------------------
+
+Established in 1999, The Apache Software Foundation provides organizational,
+legal, and financial support for more than 100 freely-available,
+collaboratively-developed Open Source projects. The pragmatic Apache License
+enables individual and commercial users to easily deploy Apache software;
+the Foundation's intellectual property framework limits the legal exposure
+of its 2,500+ contributors.
+
+For more information, visit https://www.apache.org/
