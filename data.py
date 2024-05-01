@@ -105,7 +105,7 @@ if not os.path.exists(buggy_dir):
 else:
     print(f"Directory '{buggy_dir}' already exists.")
 
-for i in range(3,len(repository_paths)):
+for i in range(len(repository_paths)):
     curr_version = repository_paths[i]
     print(curr_version, "started")
     buggy_dict = iterate_files_in_directory(curr_version)
